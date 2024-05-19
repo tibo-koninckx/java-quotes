@@ -17,7 +17,7 @@ public class QuoteService {
             ObjectMapper objectMapper = new ObjectMapper();
             return Arrays.asList(objectMapper.readValue(quoteFile, Quote[].class));
         } catch (Exception e) {
-            throw new RuntimeException("Failed to load quotes frol JSON file", e);
+            throw new RuntimeException("Failed to load quotes from JSON file", e);
         }
     }
 }
