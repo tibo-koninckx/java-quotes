@@ -2,12 +2,12 @@ package be.tibokoninckx.javaspringquotes.model;
 
 public class Quote {
     private Integer id;
-    private String QuoteText;
+    private String quoteText;
     private String description;
 
     public Quote(Integer id, String quoteText, String description) {
         this.id = id;
-        QuoteText = quoteText;
+        this.quoteText = quoteText;
         this.description = description;
     }
 
@@ -20,11 +20,11 @@ public class Quote {
     }
 
     public String getQuoteText() {
-        return QuoteText;
+        return quoteText;
     }
 
     public void setQuoteText(String quoteText) {
-        QuoteText = quoteText;
+        this.quoteText = quoteText;
     }
 
     public String getDescription() {
