@@ -1,6 +1,9 @@
 package be.tibokoninckx.javaspringquotes.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Quote {
+    @JsonProperty("ID")
     private Integer id;
     private String quoteText;
     private String description;
