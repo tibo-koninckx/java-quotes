@@ -4,14 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Quote genertor</title>
-    <link rel="stylesheet" type="text/css" href="../static/semantic.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
     <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
-    <script src="../static/semantic.min.js"></script>
 </head>
 <body>
-
+<div class="ui container">
+    <h1 class="ui center aligned header" style="font-size: 50px; margin-top: 2%">Quote generator</h1>
+</div>
+<div class="ui container center aligned">
+    <p th:text="${randomQuote.getQuoteText()}" style="font-weight: bold; margin-top: 2%; font-size: 2rem"></p>
+    <p th:text="${randomQuote.getDescription()}" style="font-weight: bold; font-size: 1rem"></p>
+</div>
 </body>
 </html>
