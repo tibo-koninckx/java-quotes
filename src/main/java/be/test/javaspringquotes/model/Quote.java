@@ -1,4 +1,4 @@
-package be.tibokoninckx.javaspringquotes.model;
+package be.test.javaspringquotes.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,7 +1,7 @@
-package be.tibokoninckx.javaspringquotes.controllers;
+package be.test.javaspringquotes.controllers;
 
-import be.tibokoninckx.javaspringquotes.model.Quote;
-import be.tibokoninckx.javaspringquotes.services.QuoteService;
+import be.test.javaspringquotes.model.Quote;
+import be.test.javaspringquotes.services.QuoteService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

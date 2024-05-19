@@ -1,4 +1,4 @@
-package be.tibokoninckx.javaspringquotes;
+package be.test.javaspringquotes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

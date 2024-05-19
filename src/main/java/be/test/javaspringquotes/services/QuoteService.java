@@ -1,6 +1,6 @@
-package be.tibokoninckx.javaspringquotes.services;
+package be.test.javaspringquotes.services;
 
-import be.tibokoninckx.javaspringquotes.model.Quote;
+import be.test.javaspringquotes.model.Quote;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
