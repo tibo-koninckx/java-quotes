@@ -10,6 +10,8 @@ public class Quote {
         this.quoteText = quoteText;
         this.description = description;
     }
+    public Quote() {
+    }
 
     public Integer getId() {
         return id;
