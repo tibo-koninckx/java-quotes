@@ -16,27 +16,12 @@ public class Quote {
     public Quote() {
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public String getQuoteText() {
         return quoteText;
     }
 
-    public void setQuoteText(String quoteText) {
-        this.quoteText = quoteText;
-    }
 
     public String getDescription() {
         return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 }
