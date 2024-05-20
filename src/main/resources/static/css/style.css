@@ -1,5 +1,4 @@
 h1 {
-    margin-top: 2%;
     font-size: 50px;
     text-decoration: underline;
 }
@@ -18,4 +17,7 @@ p:last-child {
 
 body {
     background-color: #f0f0f0;
+}
+.pt-2 {
+    padding-top: 2%;
 }
